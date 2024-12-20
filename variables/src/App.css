@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+table{
+width:70%;
+border: 2px solid black;
+border-collapse: collapse;
+text-align: center;
+margin: 20px;
+}
+
+
+td, th {
+  border: 2px solid black;
+  border-color:rgba(108, 41, 171, 0.7);
+}
+
+
+.divContainer{
+  position: relative;
+  left: 170px;
+  padding: 5px;
+}
+
+.mainHeading{
+  color: #009990;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bodyBG{
+  background-color: bisque;
+  border: 2px dashed #000;
+  overflow-x: hidden;
+  
+} 
+
+
+tr:nth-child(even), tr:nth-child(odd){
+  background-color:rgba(240, 98, 240, 0.1);
+}
+
+caption{
+  text-align: center;
+  font-size: 1.5rem;
+  color:blueviolet;
+  background-color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-family:  "Poppins", sans-serif;
+
+}
+
+td:hover{
+  background-color: #80C4E9;
+  color: #8B5DFF;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+th:hover{
+  background-color: #F72C5B;
+  color: yellow;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 5px #000);
+}
+  
+caption:hover{
+  background-color: #798645;
+  color: #B8001F;
+  filter: drop-shadow(5px 5px 5px black);
+  border-radius: 10px;
+}
